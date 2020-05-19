@@ -1,0 +1,60 @@
+    .principal {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .ranges {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; 
+    }
+
+    .titulos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .campos {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; 
+      margin-left: 20px;
+      width: 50px;
+    }   
+
+    .quadrado {
+      display: flex;
+      background-color: chocolate;
+      flex-direction: row;
+      justify-content: center;
+      height: 100px;
+      width: 100px;
+      margin: 40px;
+    }
+
+    .titulo {
+      font-size: larger;
+      font-weight: 500;
+    }
+
+    .titulo.azul{
+      color: blue;
+    }
+    
+    .titulo.verde{
+      color: green;
+    }
+
+    .titulo.vermelho{
+      color: red;
+    }
+
+    .range {
+      margin-left: 60px
+    }
+
+    .quadrado {
+      background-color: black;
+      border-style: ridge; 
+    }
